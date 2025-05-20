@@ -1,0 +1,160 @@
+# depslib dependency file v1.0
+1743510587 source:c:\users\ekkia\documents\kvanttidoom\main.c
+	"GL/freeglut.h"
+	<stdio.h>
+	<math.h>
+
+1739746037 c:\sr_lib\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1739746038 c:\sr_lib\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1739746037 c:\sr_lib\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1747687952 source:c:\users\ekkia\documents\kvanttidoom\main.cpp
+	<GL/freeglut.h>
+	<iostream>
+	"Engine.h"
+
+1747685716 c:\users\ekkia\documents\kvanttidoom\include\engine.h
+	"Player.h"
+	"GL/freeglut.h"
+	"TextureManager.h"
+	"Keletappi.h"
+	"GameObject.h"
+	"LevelManager.h"
+	"Potion.h"
+	"Particle.h"
+
+1747674054 c:\users\ekkia\documents\kvanttidoom\include\texturemanager.h
+	"GL/freeglut.h"
+	<unordered_map>
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+
+1747689571 source:c:\users\ekkia\documents\kvanttidoom\src\engine.cpp
+	"Engine.h"
+	<GL/freeglut.h>
+	<iostream>
+	<random>
+	"TextureManager.h"
+	"GL/freeglut.h"
+	<vector>
+	"Keletappi.h"
+	"GameObject.h"
+	"Potion.h"
+	"Particle.h"
+
+1747673856 source:c:\users\ekkia\documents\kvanttidoom\src\texturemanager.cpp
+	"TextureManager.h"
+	"stb_image.h"
+	<GL/freeglut.h>
+	<iostream>
+	<vector>
+	<stdio.h>
+	<cmath>
+	"Engine.h"
+
+1744113212 c:\users\ekkia\documents\kvanttidoom\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1747684999 source:c:\users\ekkia\documents\kvanttidoom\src\player.cpp
+	"Player.h"
+	"GL/freeglut.h"
+	<vector>
+	<iostream>
+	<Engine.h>
+	"Keletappi.h"
+
+1747586458 c:\users\ekkia\documents\kvanttidoom\include\player.h
+	<cmath>
+	<vector>
+	"Keletappi.h"
+
+1747675761 source:c:\users\ekkia\documents\kvanttidoom\src\keletappi.cpp
+	"Keletappi.h"
+	"Engine.h"
+	<vector>
+	<cmath>
+	"Particle.h"
+
+1747675535 c:\users\ekkia\documents\kvanttidoom\include\keletappi.h
+	<string>
+	<vector>
+
+1747679196 c:\users\ekkia\documents\kvanttidoom\include\gameobject.h
+	<vector>
+	<string>
+
+1747688041 source:c:\users\ekkia\documents\kvanttidoom\src\gameobject.cpp
+	"GameObject.h"
+	"string"
+	"Engine.h"
+	"TextureManager.h"
+	"iostream"
+
+1747678072 source:c:\users\ekkia\documents\kvanttidoom\src\potion.cpp
+	"Potion.h"
+	<string>
+	"TextureManager.h"
+	"Engine.h"
+
+1747677118 c:\users\ekkia\documents\kvanttidoom\include\potion.h
+	<string>
+
+1747685784 source:c:\users\ekkia\documents\kvanttidoom\src\levelmanager.cpp
+	"LevelManager.h"
+	"Engine.h"
+	"Keletappi.h"
+	"unordered_map"
+	"Potion.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	"TextureManager.h"
+
+1747684846 c:\users\ekkia\documents\kvanttidoom\include\levelmanager.h
+	<vector>
+	<string>
+
+1747600684 c:\users\ekkia\documents\kvanttidoom\include\particle.h
+	<vector>
+	<iostream>
+
+1747600065 source:c:\users\ekkia\documents\kvanttidoom\src\particle.cpp
+	"Particle.h"
+	<random>
+	<math.h>
+	<vector>
+	<iostream>
+	"Engine.h"
+	<unordered_map>
+
